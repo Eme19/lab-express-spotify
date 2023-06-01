@@ -1,0 +1,9 @@
+<div class="artis-flex-contain">
+{{#each item}}  
+<div  id="artis-name-button">
+    <img  src="{{images.[0].url}}" alt="{{id}} artise image" style="height: 18rem;"; >
+    <h1>{{name}}</h1>
+   <button onclick="window.location.href='/albums/{{id}}'">View Album</button> 
+   </div>
+{{/each}}
+</div>

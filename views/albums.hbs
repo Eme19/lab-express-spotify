@@ -1,0 +1,10 @@
+
+ <div class="album-flex-contain">
+ {{#each item}}  
+ <div id="ablum-styling">
+<img src={{images.[1].url}}  style="height: 18rem;">
+     <h2>{{name}}</h2> 
+ <button onclick="window.location.href='/tracks/{{id}}'">View tracks</button> 
+ </div>
+   {{/each}}
+</div>
